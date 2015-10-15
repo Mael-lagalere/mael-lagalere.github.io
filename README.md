@@ -1,4 +1,3 @@
-# mael-lagalere.github.io
 # Notice
 
 ## Création du dossier Sites dans le dossier utilisateur :
@@ -22,6 +21,8 @@ $ sudo apt-get install ruby
 ```sh
 $ gem install jekyll
 ```
+
+>**REMARQUE : Avoir installé NodeJS via la logithèque ubuntu si Jekyll ne fonctionne pas :**
 
 >**REMARQUE : NE PAS INSTALLER AVEC CETTE COMMANDE :**
 ```sh
