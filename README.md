@@ -1,6 +1,6 @@
 # Notice
 
-## Création du dossier Sites dans le dossier utilisateur :
+## Création du dossier ***sites*** dans le dossier utilisateur :
 
 
 ```sh
