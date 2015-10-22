@@ -60,3 +60,9 @@ $ sudo apt-get install git
 $ git commit -a -m "message osef"
 $ git push
 ```
+### Pour uploader
+```sh
+$ git add .
+$ git commit -a -m "message osef"
+$ git push
+```
