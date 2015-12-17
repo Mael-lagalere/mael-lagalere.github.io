@@ -62,7 +62,8 @@ $ git push
 ```
 ### Pour uploader
 ```sh
-$ git add .
+$ git pull -u origin master
+$ git add --all
 $ git commit -m "message osef"
 $ git push -u origin master
 ```
