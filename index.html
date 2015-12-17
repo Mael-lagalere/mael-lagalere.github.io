@@ -1,6 +1,21 @@
 ---
 layout: default
+title: Accueil
 ---
-Ceci est le content
+<div class="row">
+{% for post in site.posts limit:6 %}
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-check"></i>{{ post.title }}</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>{{ post.excerpt }}</p>
+                        <a href="{{ post.url }}" class="btn btn-default">lire la suite</a>
+                    </div>
+                </div>
+            </div>
+ {% endfor %}
 
 {% include presentation.html%}
+</div>
